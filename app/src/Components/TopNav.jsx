@@ -6,15 +6,15 @@ import { defineElement } from "@lordicon/element";
 defineElement(lottie.loadAnimation);
 function TopNav() {
   return (
-    <div className="flex items-center font-display font-semibold text-4xl text-amber-600 border border-b-2 drop-shadow-md p-2 ">
+    <div className="flex items-center font-header font-semibold text-2xl text-orange-400 bg-amber-50 border border-b-2 drop-shadow-md p-2 ">
       <lord-icon
-        src="https://cdn.lordicon.com/uaetnrqo.json"
-        trigger="hover"
-        colors="primary:#c76f16,secondary:#e7e2eb,tertiary:#f3c3ba,quaternary:#ad6836,quinary:#4faef9"
-        style={{ width: "150px", height: "100px" }}></lord-icon>
-
-      <h1 className=" animate-typing overflow-hidden whitespace-nowrap ">
-        Sample Blog
+              src="https://cdn.lordicon.com/jwlsfanz.json"
+              trigger="hover"
+              stroke="light"
+              colors="primary:#f4f19c,secondary:#e88c30"
+              style={{ width: "150px", height: "150px" }}></lord-icon>
+      <h1 className=" animate-typing overflow-hidden whitespace-nowrap text-left">
+        <span className="text-5xl font-display">S</span>ample <span className="text-5xl font-display">B</span>log
       </h1>
     </div>
   );

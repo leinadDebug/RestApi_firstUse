@@ -28,6 +28,7 @@ export default {
     },
     fontFamily: {
       display: ["Playfair Display"],
+      headers: ["Tilt Neon"], //name of the imported google font. link in Index.html
     },
   },
   plugins: [],
