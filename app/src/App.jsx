@@ -9,7 +9,9 @@ import Error404 from "./Components/Error404";
 function App() {
   return (
     <>
-      <div className=""><TopNav/></div>
+      <div className="">
+        <TopNav />
+      </div>
       <div className="flex gap-3 ">
         <div className=" flex-[1]">
           <SideBar />
@@ -19,7 +21,7 @@ function App() {
             <Route path={"/"} element={<Home />} />
             <Route path={"/archive"} element={<Archeive />} />
             <Route path={"/Post"} element={<Post />} />
-            <Route path={"*"} element={<Error404/>} />
+            <Route path={"*"} element={<Error404 />} />
           </Routes>
         </div>
       </div>
